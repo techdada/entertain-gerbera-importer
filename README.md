@@ -15,12 +15,18 @@ php-mbstring
 Usage:
 
 Copy config.properties.sample to config.properties. 
+
 Enter your database user/pass/name/host details
+
 Adapt, if needed, the PLS link.
-If you have a rtp proxy which needs to be used adapt its address, otherwise leave it empty
+
+If you have a rtp proxy which needs to be used adapt its address, otherwise leave it empty.
+
 To attach the URL objects to a node within Gerbera, there are two options:
+
 1. Create node Videos->T-Entertain using the Gerbera web interface
 2. Create any other node using the web interface, and find out its ID. Enter this ID as pls_nodeid= in the properties file.
 
 When all is configured, run the script by using
+
 php entertain-importer.php
