@@ -83,7 +83,8 @@ try {
 		$title=join(' ',$t);
 		$title=$nr.' '.$title;
 
-		$title=mb_convert_encoding($title,"ISO-8859-1","auto");
+		// causes problems with special local characters:
+		//$title=mb_convert_encoding($title,"ISO-8859-1","auto");
 
 		//update with rtp_proxy
 		if ($rtp_proxy) $url = str_replace('rtp://@',$rtp_proxy,$url);
