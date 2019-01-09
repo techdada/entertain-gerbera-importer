@@ -1,7 +1,0 @@
-db_user=dbuser
-db_pass=dbpass
-db_name=dbname
-db_host=localhost
-pls_link=http://iptv.blog/downloads/playlist.php
-#pls_nodeid=123456
-pls_rtpproxy=http://myproxy.local:4022/rtp/
